@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+h1, p {
+
+	color: white;
+}
+
+
+
+.nav {
+	min-height: 100%;
+	background: white;
+	width: 200px;
+	position: fixed;
+
+
+}
+
+
+.main {
+	margin-left: 200px;
+	background: lightgrey;
+}
+
+#home, #ab {
+	
+	background-image: url(../images/lebron4.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.banner {
+	background-image: url(../images/lebron.jpg);
+	min-height: 700px;
+	overflow: hidden;
+	
+}
+
+.about {
+	min-height: 300px;
+	background-image: url(../images/lebron.jpg);
+	color: white;
+}
+
+.services {
+	min-height: 300px;
+	background: midnightblue;
+}
+
+
+.logo {
+	background-image: url(../images/nba.jpg);
+	margin-left: 55px;
+	width: 140px;
+	min-height: 140px;
+	margin-bottom: 10px;
+	
+}
+
+.link {
+	font-family: 'Open-Sans';
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	margin-left: 40px;
+}
